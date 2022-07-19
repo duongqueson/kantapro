@@ -1,0 +1,32 @@
+.wrapper {
+  width: 100%;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  color: #c22121;
+  background-color: #fababa;
+}
+
+.message {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 1170px;
+  padding: 8px 24px;
+  font-weight: 500;
+  letter-spacing: 0.06rem;
+}
+
+.show-collections {
+  color: #c22121;
+}
+
+.close {
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+  font-size: 2.6rem;
+  font-weight: 400;
+}

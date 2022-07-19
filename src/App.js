@@ -6,7 +6,6 @@ import DefaultLayout from './layouts/DefaultLayout';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">Kantapro</div>
       <Routes>
         {publicRoutes.map((route, index) => {
           const Page = route.component;

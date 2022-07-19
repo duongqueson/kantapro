@@ -2,9 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-    --white-color: #ffffff;
+  --primary: #232323;
+  --white: #ffffff;
 
-    --font-family: 'Poppins', sans-serif;
+  --text-color: #232323;
+
+  --font-family: 'Poppins', sans-serif;
 }
 
 * {
@@ -21,4 +24,10 @@ body {
   font-size: 1.2rem;
   line-height: 20px;
   font-family: var(--font-family);
+}
+
+a {
+  &:hover {
+    border-bottom: 1px solid currentColor;
+  }
 }
