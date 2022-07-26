@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kantapro/static/css/main.5ef570d5.css",
+    "main.js": "/kantapro/static/js/main.ffd5984b.js",
+    "static/js/787.b32fae00.chunk.js": "/kantapro/static/js/787.b32fae00.chunk.js",
+    "static/media/logo.webp": "/kantapro/static/media/logo.5bba609b08657e6b9633.webp",
+    "index.html": "/kantapro/index.html",
+    "main.5ef570d5.css.map": "/kantapro/static/css/main.5ef570d5.css.map",
+    "main.ffd5984b.js.map": "/kantapro/static/js/main.ffd5984b.js.map",
+    "787.b32fae00.chunk.js.map": "/kantapro/static/js/787.b32fae00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ef570d5.css",
+    "static/js/main.ffd5984b.js"
+  ]
+}
