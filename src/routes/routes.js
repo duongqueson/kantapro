@@ -1,21 +1,22 @@
 import Home from '~/pages/Home';
 import Backpack from '~/pages/Backpack';
-import AllCollections from '~/pages/AllCollections';
+import Collections from '~/pages/Collections';
 import HomeLayout from '~/layouts/HomeLayout';
+import config from '~/config';
 
 const publicRoutes = [
   {
-    path: '/',
+    path: config.routes.home,
     component: Home,
     layout: HomeLayout
   },
   {
-    path: '/collections/backpack',
+    path: config.routes.backpack,
     component: Backpack,
   },
   {
-    path: '/collections/all',
-    component: AllCollections,
+    path: config.routes.collections,
+    component: Collections,
   },
 ];
 const privateRoutes = [];

@@ -2,6 +2,7 @@
   width: 100%;
 }
 
+/* Header top */
 .top {
   display: flex;
   justify-content: center;
@@ -13,14 +14,18 @@
   position: relative;
   display: flex;
   justify-content: center;
-  width: 1170px;
+  width: 100%;
   padding: 8px 24px;
   font-weight: 500;
   letter-spacing: 0.06rem;
-}
 
-.show-collections {
-  color: #c22121;
+  .show-collections {
+    color: #c22121;
+    background-color: #fababa;
+    &:hover {
+      border-bottom: 1px solid currentColor;
+    }
+  }
 }
 
 .close {
@@ -29,4 +34,77 @@
   cursor: pointer;
   font-size: 2.6rem;
   font-weight: 400;
+}
+
+/* Header bottom */
+.bottom {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.panel-top {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 30px;
+
+  & > * {
+    margin-left: 16px;
+  }
+}
+
+.hotline {
+  color: #323232;
+}
+
+.language {
+  font-size: 1.2rem;
+  font-family: var(--font-family);
+  border: none;
+  outline: none;
+}
+
+.panel-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-link {
+  text-decoration: none;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.ship-text {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+
+.actions-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.shopping-cart {
+
+}
+
+.favorite-list {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.customer-account {
+  display: flex;
 }

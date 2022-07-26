@@ -1,11 +1,12 @@
 @import 'normalize.css';
+@import '../../assets/css/grid.scss';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
   --primary: #232323;
   --white: #ffffff;
 
-  --text-color: #232323;
+  --text-color: #323232;
 
   --font-family: 'Poppins', sans-serif;
 }
@@ -23,11 +24,28 @@ html {
 body {
   font-size: 1.2rem;
   line-height: 20px;
+  color: var(--text-color);
   font-family: var(--font-family);
 }
 
-a {
-  &:hover {
-    border-bottom: 1px solid currentColor;
-  }
+input, button {
+  border: none;
+  outline: none;
+}
+
+/* animations */
+.dropdown-enter {
+  transform: scaleY(0);
+  transform-origin: top;
+}
+.dropdown-enter-active {
+  transform: scaleY(1);
+  transition: all 1000ms;
+}
+.dropdown-exit {
+  transform-origin: top;
+}
+.dropdown-exit-active {
+  transform: scaleY(0);
+  transition: all 1000ms;
 }
